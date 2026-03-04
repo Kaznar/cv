@@ -1,5 +1,7 @@
 # CV Generator
 
+**Live:** [https://cv.lastivka.xyz](https://cv.lastivka.xyz/)
+
 A simple, client-side CV generator built with Vue 3 and Vite. No backend, no database — all data is stored in the browser's `localStorage`.
 
 ## Features
