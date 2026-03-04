@@ -1,0 +1,601 @@
+/* ==========================================================
+   CV Template Styles
+   Each template uses a class on .cv-preview:
+   - .template-classic
+   - .template-modern
+   - .template-minimal
+   ========================================================== */
+
+/* ===== Shared CV Structure ===== */
+.cv-preview .cv-header,
+.cv-preview .cv-section,
+.cv-preview .cv-sidebar,
+.cv-preview .cv-main {
+    /* Reset for all templates */
+}
+
+.cv-preview h1 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.cv-preview h2 {
+    margin: 0 0 10px;
+    line-height: 1.3;
+}
+
+.cv-preview h3 {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.cv-preview p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.cv-preview ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cv-preview .cv-photo {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cv-preview .cv-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+}
+
+.cv-preview .cv-contact-icon {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
+.cv-preview .cv-entry {
+    margin-bottom: 14px;
+}
+
+.cv-preview .cv-entry:last-child {
+    margin-bottom: 0;
+}
+
+.cv-preview .cv-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.cv-preview .cv-entry-period {
+    font-size: 0.82rem;
+    white-space: nowrap;
+}
+
+.cv-preview .cv-entry-description {
+    margin-top: 4px;
+    font-size: 0.88rem;
+    white-space: pre-line;
+}
+
+.cv-preview .cv-skill-item,
+.cv-preview .cv-lang-item {
+    margin-bottom: 6px;
+}
+
+.cv-preview .cv-skill-name,
+.cv-preview .cv-lang-name {
+    font-weight: 500;
+    font-size: 0.88rem;
+}
+
+.cv-preview .cv-skill-level,
+.cv-preview .cv-lang-level {
+    font-size: 0.8rem;
+}
+
+.cv-preview .cv-skill-bar {
+    height: 5px;
+    border-radius: 3px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+
+.cv-preview .cv-skill-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+}
+
+
+/* ==========================================================
+   1. CLASSIC TEMPLATE
+   Traditional single-column layout
+   ========================================================== */
+.template-classic {
+    padding: 36px 40px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #2c2c2c;
+    font-size: 13px;
+}
+
+.template-classic .cv-header {
+    text-align: center;
+    padding-bottom: 18px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+.template-classic .cv-photo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.template-classic h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 0.02em;
+}
+
+.template-classic .cv-title {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.template-classic .cv-contact-list {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.template-classic .cv-contact-item {
+    color: #444;
+}
+
+.template-classic .cv-section {
+    margin-bottom: 20px;
+}
+
+.template-classic .cv-section h2 {
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #1a1a1a;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+}
+
+.template-classic .cv-profile-text {
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+.template-classic .cv-entry h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.template-classic .cv-entry-subtitle {
+    font-size: 0.88rem;
+    color: #555;
+    font-style: italic;
+}
+
+.template-classic .cv-entry-period {
+    color: #777;
+    font-style: italic;
+}
+
+.template-classic .cv-entry-description {
+    color: #444;
+}
+
+.template-classic .cv-skill-bar {
+    background: #e0e0e0;
+}
+
+.template-classic .cv-skill-bar-fill {
+    background: #555;
+}
+
+.template-classic .cv-skill-level,
+.template-classic .cv-lang-level {
+    color: #777;
+}
+
+
+/* ==========================================================
+   2. MODERN TEMPLATE
+   Two-column with colored sidebar
+   ========================================================== */
+.template-modern {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: #333;
+    font-size: 13px;
+    display: flex;
+    min-height: 297mm;
+}
+
+.template-modern .cv-sidebar {
+    width: 200px;
+    flex-shrink: 0;
+    background: #1e3a5f;
+    color: #e8edf3;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.template-modern .cv-sidebar .cv-photo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 8px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.template-modern .cv-sidebar h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #8db4d8;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+.template-modern .cv-sidebar .cv-contact-item {
+    color: #c8d6e5;
+    font-size: 0.82rem;
+    margin-bottom: 6px;
+}
+
+.template-modern .cv-sidebar .cv-contact-icon {
+    opacity: 0.6;
+    filter: invert(1);
+}
+
+.template-modern .cv-sidebar .cv-skill-name {
+    color: #e0e8f0;
+}
+
+.template-modern .cv-sidebar .cv-skill-level {
+    color: #8db4d8;
+}
+
+.template-modern .cv-sidebar .cv-skill-bar {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.template-modern .cv-sidebar .cv-skill-bar-fill {
+    background: #5b9bd5;
+}
+
+.template-modern .cv-sidebar .cv-lang-name {
+    color: #e0e8f0;
+}
+
+.template-modern .cv-sidebar .cv-lang-level {
+    color: #8db4d8;
+}
+
+.template-modern .cv-main {
+    flex: 1;
+    padding: 30px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.template-modern .cv-main .cv-header {
+    margin-bottom: 4px;
+}
+
+.template-modern .cv-main h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #1e3a5f;
+}
+
+.template-modern .cv-main .cv-title {
+    font-size: 1rem;
+    color: #5b9bd5;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.template-modern .cv-main .cv-section {
+    /* no extra margin needed, gap handles it */
+}
+
+.template-modern .cv-main h2 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #1e3a5f;
+    border-bottom: 2px solid #5b9bd5;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+}
+
+.template-modern .cv-main .cv-profile-text {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.template-modern .cv-main .cv-entry h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1e3a5f;
+}
+
+.template-modern .cv-main .cv-entry-subtitle {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.template-modern .cv-main .cv-entry-period {
+    color: #5b9bd5;
+    font-weight: 500;
+}
+
+.template-modern .cv-main .cv-entry-description {
+    color: #555;
+}
+
+
+/* ==========================================================
+   3. MINIMAL TEMPLATE
+   Clean single-column, lots of whitespace
+   ========================================================== */
+.template-minimal {
+    padding: 44px 48px;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    color: #3a3a3a;
+    font-size: 13px;
+}
+
+.template-minimal .cv-header {
+    margin-bottom: 28px;
+}
+
+.template-minimal .cv-header-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.template-minimal .cv-photo {
+    width: 70px;
+    height: 70px;
+}
+
+.template-minimal h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+}
+
+.template-minimal .cv-title {
+    font-size: 1rem;
+    color: #888;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.template-minimal .cv-contact-list {
+    display: flex;
+    gap: 20px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+}
+
+.template-minimal .cv-contact-item {
+    color: #777;
+    font-size: 0.82rem;
+}
+
+.template-minimal .cv-section {
+    margin-bottom: 24px;
+}
+
+.template-minimal .cv-section h2 {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #999;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.template-minimal .cv-profile-text {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+.template-minimal .cv-entry h3 {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.template-minimal .cv-entry-subtitle {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.template-minimal .cv-entry-period {
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.template-minimal .cv-entry-description {
+    color: #555;
+}
+
+.template-minimal .cv-skill-item,
+.template-minimal .cv-lang-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 14px;
+    margin-bottom: 8px;
+}
+
+.template-minimal .cv-skill-bar {
+    display: none;
+}
+
+.template-minimal .cv-skill-level,
+.template-minimal .cv-lang-level {
+    color: #aaa;
+    font-size: 0.78rem;
+}
+
+.template-minimal .cv-skills-grid,
+.template-minimal .cv-languages-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* ==========================================================
+   PRINT STYLES
+   ========================================================== */
+@media print {
+    /* Hide everything except the CV preview */
+    body {
+        background: white !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .form-panel,
+    .preview-toolbar {
+        display: none !important;
+    }
+
+    .app-layout {
+        display: block !important;
+        height: auto !important;
+    }
+
+    .preview-panel {
+        display: block !important;
+        overflow: visible !important;
+    }
+
+    .preview-scroll {
+        padding: 0 !important;
+        overflow: visible !important;
+        display: block !important;
+    }
+
+    .cv-preview {
+        width: 100% !important;
+        min-height: auto !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        background: white !important;
+        /* Repeat top/bottom padding on every printed page */
+        padding-top: 10mm !important;
+        padding-bottom: 10mm !important;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+
+    .preview-empty,
+    .page-break-indicator {
+        display: none !important;
+    }
+
+    /* Page break rules */
+    .cv-section {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .cv-entry {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    /* ---- Classic & Minimal templates ---- */
+    /* Zero page margins — suppresses browser header/footer (title, URL) */
+    @page {
+        margin: 0;
+        size: A4;
+    }
+
+    /* ---- Modern template ---- */
+    .template-modern {
+        min-height: 0 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    /*
+     * position: fixed in print repeats on EVERY page automatically.
+     * This creates a full-height blue strip on every printed page,
+     * regardless of where the sidebar content ends.
+     */
+    .template-modern::before {
+        content: '';
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+        background: #1e3a5f;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        color-adjust: exact;
+        z-index: 0;
+    }
+
+    .template-modern .cv-sidebar,
+    .template-modern .cv-main {
+        position: relative;
+        z-index: 1;
+    }
+
+    .template-modern .cv-sidebar {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+        background: transparent !important;
+    }
+
+    .template-modern .cv-sidebar .cv-skill-bar {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    .template-modern .cv-sidebar .cv-skill-bar-fill {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+}

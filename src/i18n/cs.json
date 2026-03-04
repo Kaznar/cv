@@ -1,0 +1,100 @@
+{
+  "appTitle": "CV Generátor",
+  "exportPdf": "Exportovat PDF",
+  "previewEmpty": "Vyplňte formulář pro zobrazení náhledu CV.",
+  "resetData": "Obnovit výchozí data",
+  "resetConfirm": "Opravdu chcete smazat všechna data a obnovit výchozí hodnoty?",
+
+  "personal": {
+    "legend": "Osobní údaje",
+    "firstName": "Jméno",
+    "firstNamePlaceholder": "Jan",
+    "lastName": "Příjmení",
+    "lastNamePlaceholder": "Novák",
+    "title": "Profesní titul",
+    "titlePlaceholder": "Software Developer",
+    "email": "Email",
+    "emailPlaceholder": "jan{'@'}example.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+420 123 456 789",
+    "address": "Adresa",
+    "addressPlaceholder": "Praha, Česká republika",
+    "photo": "Fotografie",
+    "removePhoto": "Odebrat foto"
+  },
+
+  "profile": {
+    "legend": "Profil",
+    "label": "Krátký popis",
+    "placeholder": "Stručně popište své profesní zaměření a silné stránky..."
+  },
+
+  "experience": {
+    "legend": "Pracovní zkušenosti",
+    "add": "+ Přidat zkušenost",
+    "position": "Pozice",
+    "positionPlaceholder": "Software Developer",
+    "company": "Firma",
+    "companyPlaceholder": "Firma s.r.o.",
+    "from": "Od",
+    "fromPlaceholder": "01/2020",
+    "to": "Do",
+    "toPlaceholder": "dosud",
+    "description": "Popis",
+    "descriptionPlaceholder": "Popište svou roli a hlavní úspěchy..."
+  },
+
+  "education": {
+    "legend": "Vzdělání",
+    "add": "+ Přidat vzdělání",
+    "school": "Škola",
+    "schoolPlaceholder": "Univerzita Karlova",
+    "field": "Obor",
+    "fieldPlaceholder": "Informatika",
+    "from": "Od",
+    "fromPlaceholder": "09/2015",
+    "to": "Do",
+    "toPlaceholder": "06/2020"
+  },
+
+  "skills": {
+    "legend": "Dovednosti",
+    "add": "+ Přidat dovednost",
+    "name": "Dovednost",
+    "namePlaceholder": "JavaScript",
+    "level": "Úroveň"
+  },
+
+  "languages": {
+    "legend": "Jazyky",
+    "add": "+ Přidat jazyk",
+    "name": "Jazyk",
+    "namePlaceholder": "Angličtina",
+    "level": "Úroveň"
+  },
+
+  "cv": {
+    "profile": "Profil",
+    "experience": "Pracovní zkušenosti",
+    "education": "Vzdělání",
+    "skills": "Dovednosti",
+    "languages": "Jazyky",
+    "contact": "Kontakt"
+  },
+
+  "skillLevels": {
+    "beginner": "Začátečník",
+    "intermediate": "Mírně pokročilý",
+    "advanced": "Pokročilý",
+    "expert": "Expert"
+  },
+
+  "langLevels": {
+    "A1": "A1 – Začátečník",
+    "A2": "A2 – Základní",
+    "B1": "B1 – Mírně pokročilý",
+    "B2": "B2 – Středně pokročilý",
+    "C1": "C1 – Pokročilý",
+    "C2": "C2 – Rodilý mluvčí"
+  }
+}

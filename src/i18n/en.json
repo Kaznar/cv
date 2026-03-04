@@ -1,0 +1,100 @@
+{
+  "appTitle": "CV Generator",
+  "exportPdf": "Export PDF",
+  "previewEmpty": "Fill in the form to see a CV preview.",
+  "resetData": "Reset to defaults",
+  "resetConfirm": "Are you sure you want to clear all data and restore defaults?",
+
+  "personal": {
+    "legend": "Personal Information",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "title": "Professional Title",
+    "titlePlaceholder": "Software Developer",
+    "email": "Email",
+    "emailPlaceholder": "john{'@'}example.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+1 234 567 890",
+    "address": "Address",
+    "addressPlaceholder": "Prague, Czech Republic",
+    "photo": "Photo",
+    "removePhoto": "Remove photo"
+  },
+
+  "profile": {
+    "legend": "Profile",
+    "label": "Short description",
+    "placeholder": "Briefly describe your professional focus and strengths..."
+  },
+
+  "experience": {
+    "legend": "Work Experience",
+    "add": "+ Add experience",
+    "position": "Position",
+    "positionPlaceholder": "Software Developer",
+    "company": "Company",
+    "companyPlaceholder": "Company Ltd.",
+    "from": "From",
+    "fromPlaceholder": "01/2020",
+    "to": "To",
+    "toPlaceholder": "present",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe your role and key achievements..."
+  },
+
+  "education": {
+    "legend": "Education",
+    "add": "+ Add education",
+    "school": "School",
+    "schoolPlaceholder": "Charles University",
+    "field": "Field of study",
+    "fieldPlaceholder": "Computer Science",
+    "from": "From",
+    "fromPlaceholder": "09/2015",
+    "to": "To",
+    "toPlaceholder": "06/2020"
+  },
+
+  "skills": {
+    "legend": "Skills",
+    "add": "+ Add skill",
+    "name": "Skill",
+    "namePlaceholder": "JavaScript",
+    "level": "Level"
+  },
+
+  "languages": {
+    "legend": "Languages",
+    "add": "+ Add language",
+    "name": "Language",
+    "namePlaceholder": "English",
+    "level": "Level"
+  },
+
+  "cv": {
+    "profile": "Profile",
+    "experience": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "languages": "Languages",
+    "contact": "Contact"
+  },
+
+  "skillLevels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "expert": "Expert"
+  },
+
+  "langLevels": {
+    "A1": "A1 – Beginner",
+    "A2": "A2 – Elementary",
+    "B1": "B1 – Intermediate",
+    "B2": "B2 – Upper Intermediate",
+    "C1": "C1 – Advanced",
+    "C2": "C2 – Native Speaker"
+  }
+}
